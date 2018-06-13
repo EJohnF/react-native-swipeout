@@ -15,8 +15,9 @@ import {
 } from 'react-native';
 
 import PropTypes from 'prop-types';
+const createReactClass = require('create-react-class');
 
-const SwipeoutBtn = React.createClass({
+const SwipeoutBtn = createReactClass({
 
   propTypes: {
     backgroundColor: PropTypes.string,

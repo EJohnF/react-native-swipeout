@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 
 import PropTypes from 'prop-types';
+const createReactClass = require('create-react-class');
 
 const styles = StyleSheet.create({
   button: {
@@ -27,7 +28,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const NativeButton = React.createClass({
+const NativeButton = createReactClass({
 
   propTypes: {
     // Extract parent props
