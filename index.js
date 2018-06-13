@@ -96,7 +96,7 @@ const SwipeoutBtn = createReactClass({
   }
 });
 
-const Swipeout = React.createClass({
+const Swipeout = createReactClass({
   mixins: [tweenState.Mixin],
 
   propTypes: {
