@@ -1,6 +1,4 @@
-import React, {
-  PropTypes,
-} from 'react';
+import React from 'react';
 
 import {
   TouchableWithoutFeedback,
@@ -11,6 +9,8 @@ import {
   Platform,
   View,
 } from 'react-native';
+
+import PropTypes from 'prop-types';
 
 const styles = StyleSheet.create({
   button: {

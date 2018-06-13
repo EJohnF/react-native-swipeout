@@ -4,7 +4,6 @@ import styles from './styles';
 
 import React, {
   Component,
-  PropTypes,
 } from 'react';
 
 import {
@@ -14,6 +13,8 @@ import {
   Text,
   View,
 } from 'react-native';
+
+import PropTypes from 'prop-types';
 
 const SwipeoutBtn = React.createClass({
 
