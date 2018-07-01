@@ -12,10 +12,12 @@ import {
   StyleSheet,
   Text,
   View,
+  ViewPropTypes,
 } from 'react-native';
 
 import PropTypes from 'prop-types';
 const createReactClass = require('create-react-class');
+const viewPropTypes = ViewPropTypes || View.propTypes;
 
 const SwipeoutBtn = createReactClass({
 
@@ -107,7 +109,7 @@ const Swipeout = createReactClass({
     onOpen: PropTypes.func,
     right: PropTypes.array,
     scroll: PropTypes.func,
-    style: View.propTypes.style,
+    style: viewPropTypes.style,
     sensitivity: PropTypes.number,
   },
 
